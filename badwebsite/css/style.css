@@ -1,0 +1,42 @@
+
+  
+  .barbie {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+    background: #f76caf;
+  }
+  
+  .title {
+    padding: 20px;
+    text-align: center;
+    background: rgba(93, 203, 243, 0.158);
+  }
+  
+  .title {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .block {
+    color: white;
+    background-color: rgb(231, 15, 145);
+    padding: 20px;
+    margin-top: 20px;
+  }
+ 
+  a:hover {
+    color:rgb(157, 12, 12);
+    font-weight:bold;
+  }
+
+  .ap {
+   color: white;
+  }
+
+  .text {
+    color: rgb(255, 255, 255);
+    background-color: rgba(41, 4, 10, 0.15);
+    padding: 50px;
+    position: absolute;
+    
+  }
