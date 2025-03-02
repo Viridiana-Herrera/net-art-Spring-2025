@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Digital Quilt</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background: url("funnyface1.png")no-repeat fixed center;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        .circle {
+            height: 30vw;
+            width: 30vw;
+            background-color: rgba(238, 158, 204, 0.447);
+            border: 5px solid black;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .container>div:nth-child(18) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 100px 60px 50px 1fr 50px 60px 100px;
+            grid-template-rows: 100px 50px 1fr 50px 100px;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .container>div {
+            border: 3px solid black;
+        }
+
+        .container>div:nth-child(7n+2) {
+            background-color: rgba(238, 158, 204, 0.447);
+        }
+
+        .container>div:nth-child(7n+6) {
+            background-color: rgba(238, 158, 204, 0.447);
+        }
+
+        .container>div:nth-child(n+8):nth-child(-n+14) {
+            background-color: rgba(238, 158, 204, 0.447);
+        }
+
+        .container>div:nth-child(n+22):nth-child(-n+28) {
+            background-color: rgba(238, 158, 204, 0.447);
+        }
+
+        .container>div:nth-child(3) {
+            background-color: rgba(169, 232, 245, 0.56);
+        }
+
+        .container>div:nth-child(5) {
+            background-color: rgba(169, 232, 245, 0.56);
+        }
+
+        .container>div:nth-child(31) {
+            background-color: rgba(169, 232, 245, 0.56);
+        }
+
+        .container>div:nth-child(33) {
+            background-color: rgba(169, 232, 245, 0.56);
+        }
+
+        .container>div:nth-child(17) {
+            background-color: rgba(104, 130, 110, 0.645);
+        }
+
+        .container>div:nth-child(19) {
+            background-color: rgba(104, 130, 110, 0.645);
+        }
+
+        .container>div:nth-child(1) {
+            background-color: rgba(113, 83, 147, 0.645);
+        }
+
+        .container>div:nth-child(7) {
+            background-color: rgba(113, 83, 147, 0.645);
+        }
+
+        .container>div:nth-child(29) {
+            background-color: rgba(113, 83, 147, 0.645);
+        }
+
+        .container>div:nth-child(35) {
+            background-color: rgba(113, 83, 147, 0.645);
+        }
+
+        .container>div:nth-child(18) {
+            background-color: rgba(169, 232, 245, 0.33);
+        }
+
+        .container>div:nth-child(4) {
+            background-color: #80cdca43;
+        }
+
+        .container>div:nth-child(15) {
+            background-color: #80cdca43;
+        }
+
+        .container>div:nth-child(21) {
+            background-color: #80cdca43;
+        }
+
+        .container>div:nth-child(32) {
+            background-color: #80cdca43;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="window">
+        <div class="container">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div>
+                <div class="circle"></div>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+</body>
