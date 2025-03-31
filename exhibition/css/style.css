@@ -1,0 +1,342 @@
+.page-1 {
+
+  hr {
+    border: 1px solid rgb(158, 19, 19);
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: 'helvetica';
+    color: rgb(51, 41, 39);
+  }
+
+  p {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(51, 41, 39);
+  }
+
+  background-color: rgb(246, 239, 226);
+
+  a {
+
+    color: rgb(51, 41, 39);
+    font-style: italic;
+  }
+
+  a:hover {
+    color: rgb(158, 19, 19);
+  }
+
+  .left {
+    width: 25%;
+    display: block;
+    float: left;
+    padding-left: 30px;
+  }
+
+  .right {
+    width: 70%;
+    display: block;
+    float: right;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100vh;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+
+  @media screen and (max-width: 992px) {
+    .left {
+      width: 60%;
+      float: none;
+      margin: 0 auto;
+      text-align: center;
+      padding: 0px;
+    }
+
+    .right {
+      width: 80%;
+      text-align: center;
+      float: none;
+      margin: 0 auto;
+      overflow-y: hidden;
+      overflow-x: hidden;
+      height: auto;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .left {
+      width: 100%;
+    }
+
+    .right {
+      width: 100%;
+    }
+  }
+}
+
+.page-2 {
+
+  hr {
+    border: 1px solid  rgb(238, 181, 199);
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: 'helvetica';
+    color: rgb(238, 181, 199);
+  }
+
+  p {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(238, 181, 199);
+  }
+
+  background-color: rgb(238, 181, 199);
+  a {
+
+    color: rgb(238, 181, 199);
+    font-style: italic;
+  }
+
+  a:hover {
+    color: rgb(214, 91, 130);
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .left,
+  .center,
+  .right {
+    background-color: #111010;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  .left h1,
+  .center h1,
+  .right h1 {
+    text-align: center;
+  }
+
+  .left h2,
+  .center h3,
+  .right h3 {
+    text-align: center;
+  }
+
+  audio {
+    display: block;
+    margin: 20px auto;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+
+  iframe {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 992px) {
+    .container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+.page-3 {
+
+  hr {
+    border: 1px solid  rgb(244, 240, 207);
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: 'helvetica';
+    color:rgb(244, 240, 207);
+  }
+
+  p {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(244, 240, 207);
+  }
+
+  background-color: rgb(145, 0, 72);
+
+  a {
+
+    color: rgb(244, 240, 207);
+    font-style: italic;
+  }
+
+  a:hover {
+    color: rgb(237, 225, 114);
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .left,
+  .center,
+  .right {
+    background-color: #111010;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  .left h1,
+  .center h1,
+  .right h1 {
+    text-align: center;
+  }
+
+  .left h2,
+  .center h3,
+  .right h3 {
+    text-align: center;
+  }
+
+  audio {
+    display: block;
+    margin: 20px auto;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+
+  iframe {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 992px) {
+    .container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+.page-4 {
+  hr {
+    border: 1px solid  rgb(144, 207, 215);
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: 'helvetica';
+    color:rgb(144, 207, 215);
+  }
+
+  p {
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(144, 207, 215);
+  }
+
+  background-color: rgb(27, 37, 39);
+
+  a {
+
+    color: rgb(144, 207, 215);
+    font-style: italic;
+  }
+
+  a:hover {
+    color: rgb(41, 129, 141);
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .left,
+  .center,
+  .right {
+    background-color: #111010;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  .left h1,
+  .center h1,
+  .right h1 {
+    text-align: center;
+  }
+
+  .left h2,
+  .center h3,
+  .right h3 {
+    text-align: center;
+  }
+
+  audio {
+    display: block;
+    margin: 20px auto;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+
+  iframe {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 992px) {
+    .container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  }
+}
