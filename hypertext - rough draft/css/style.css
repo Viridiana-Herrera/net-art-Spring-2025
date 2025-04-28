@@ -1,0 +1,420 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  .page-1 {
+    background-image: radial-gradient(#212121 20%, transparent 20%),
+      radial-gradient(#fafafa 20%, transparent 20%);
+    background-color: rgb(238, 181, 199);
+    background-position: 0 0, 50px 50px;
+    background-size: 100px 100px;
+  
+  hr {
+    border: 1px solid rgb(238, 181, 199);
+  }
+  
+  p,
+  strong,
+  h1,
+  h2,
+  h3 {
+    font-family: 'helvetica';
+    color: rgb(239, 108, 149);
+  }
+  
+  em {
+    font-family: 'helvetica';
+    color: rgb(238, 181, 199);
+  }
+  
+  a {
+    color: rgb(239, 108, 149);
+    font-style: italic;
+  }
+  
+  a:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .left,
+  .center,
+  .right {
+    background-color: #212121;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  .left h1,
+  .center h1,
+  .right h1 {
+    text-align: center;
+  }
+
+  .left h2,
+  .center h3,
+  .right h3 {
+    text-align: center;
+  }
+
+  audio {
+    display: block;
+    margin: 20px auto;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+
+  iframe {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 992px) {
+    .container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  #story {
+    max-width: 500px;
+    padding: 10px 10px;
+    line-height: 1.8;
+    font-size: 1.2em;
+    overflow-y: auto;
+    height: 90vh;
+    box-sizing: border-box;
+    margin-left: 0;
+  }
+  
+  #story p {
+    margin-bottom: 20px;
+  }
+  
+  #story em {
+    display: block;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  
+  #story a {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(238, 181, 199);
+  }
+  
+  #story a:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  #title {
+    cursor: pointer;
+    color: rgb(238, 181, 199);
+  }
+  
+  #title em {
+    color: inherit;
+  }
+  
+  #title:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  }
+
+  .page-2 {
+    background-image: radial-gradient(#434d20 20%, transparent 20%),
+    radial-gradient(#f1cfe1 20%, transparent 20%);
+  background-color: #a3b26e;
+  background-position: 0 0, 50px 50px;
+  background-size: 100px 100px;
+
+hr {
+  border: 1px solid #f1cfe1;
+}
+
+p,
+strong,
+h1,
+h2,
+h3 {
+  font-family: 'helvetica';
+  color: #e9839d;
+}
+
+em {
+  font-family: 'helvetica';
+  color: rgb(238, 181, 199);
+}
+
+a {
+  color: #e9839d;
+  font-style: italic;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.left,
+.center,
+.right {
+  background-color: #271f17;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.left h1,
+.center h1,
+.right h1 {
+  text-align: center;
+}
+
+.left h2,
+.center h3,
+.right h3 {
+  text-align: center;
+}
+
+audio {
+  display: block;
+  margin: 20px auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+iframe {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+#story {
+  max-width: 500px;
+  padding: 10px 10px;
+  line-height: 1.8;
+  font-size: 1.2em;
+  overflow-y: auto;
+  height: 90vh;
+  box-sizing: border-box;
+  margin-left: 0;
+}
+
+#story p {
+  margin-bottom: 20px;
+}
+
+#story em {
+  display: block;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+#story a {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: rgb(238, 181, 199);
+}
+
+#story a:hover {
+  color: rgb(255, 255, 255);
+}
+
+#title {
+  cursor: pointer;
+  color: rgb(238, 181, 199);
+}
+
+#title em {
+  color: inherit;
+}
+
+#title:hover {
+  color: rgb(255, 255, 255);
+}
+
+}
+
+.page-3 {
+    background-image: radial-gradient(#5d3a60 20%, transparent 20%),
+    radial-gradient(#f0e0ef 20%, transparent 20%);
+  background-color: #d68bb9;
+  background-position: 0 0, 50px 50px;
+  background-size: 100px 100px;
+
+hr {
+  border: 1px solid #f0e0ef;
+}
+
+p,
+strong,
+h1,
+h2,
+h3 {
+  font-family: 'helvetica';
+  color: #d68bb9;
+}
+
+em {
+  font-family: 'helvetica';
+  color: #d294d8 ;
+}
+
+a {
+  color:  #d68bb9;
+  font-style: italic;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.left,
+.center,
+.right {
+  background-color: #231a1e;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.left h1,
+.center h1,
+.right h1 {
+  text-align: center;
+}
+
+.left h2,
+.center h3,
+.right h3 {
+  text-align: center;
+}
+
+audio {
+  display: block;
+  margin: 20px auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+iframe {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+#story {
+  max-width: 500px;
+  padding: 10px 10px;
+  line-height: 1.8;
+  font-size: 1.2em;
+  overflow-y: auto;
+  height: 90vh;
+  box-sizing: border-box;
+  margin-left: 0;
+}
+
+#story p {
+  margin-bottom: 20px;
+}
+
+#story em {
+  display: block;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+#story a {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: rgb(238, 181, 199);
+}
+
+#story a:hover {
+  color: rgb(255, 255, 255);
+}
+
+#title {
+  cursor: pointer;
+  color: rgb(238, 181, 199);
+}
+
+#title em {
+  color: inherit;
+}
+
+#title:hover {
+  color: rgb(255, 255, 255);
+}
+
+}
